@@ -69,21 +69,15 @@ You should be able to simply open `visual_studio/Attempt 1.sln` and run it the s
 
 ### Requirements
 
-**Requirements set in our own pitch document are italicized**
-
  - [x] Loading and rendering of non‐trivial geometry 
- - [x] *Ability to load .obj files and correctly load their material and texture data for use in the shader code*
+ - [x] Ability to load .obj files and correctly load their material and texture data for use in the shader code
  - [x] Loading and rendering of textured  geometry with correct blending 
- - [x] Basic shaders as needed for rendering: Similar to what was seen in the first assignment 
- - [x] *Shader that implements Phong shading and handles textures if present*
+ - [x] Shader that implements Blinn-Phong shading and handles textures if present
  - [x] Working 2D Transformations 
  - [x] Response to user input (mouse, keyboard): including changes in the set of rendered objects, object eometry, position, orientation, textures, colors, and other attributes.  
- - [x] *Fully functioning camera (allows the player to move and rotate the view as they please)*
-
-We have a working camera that we use to create a view matrix. The camera supports moving (WASD, ←↑→↓), rotating on the camera's up axis (QE), rotating around the camera's horizontal axis (scroll wheel), zooming and unzooming (Z + scroll wheel)
+ - [x] Camera supports moving (WASD, ←↑→↓), rotating on the camera's up axis (QE), rotating around the camera's horizontal axis (scroll wheel), zooming and unzooming (Z + scroll wheel)
 
  - [x] Basic key‐frame/state interpolation (smooth movement from point A to point B in Cartesian space).  
- - [x] *Have entities that can move to a given location (with movement happening smoothly between the two points, but not with pathing logic to avoid obstacles)*
-
-- [x] *Add a skybox*
-- [x] *Have the ability to select a tile*
+ - [x] Have entities that can move to a given location (with movement happening smoothly between the two points, but not with pathing logic to avoid obstacles)
+ - [x] Add a skybox
+ - [x] Have the ability to select a tile
